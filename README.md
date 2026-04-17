@@ -61,7 +61,6 @@ mvn -DskipTests -Dexec.mainClass=com.example.app.App org.codehaus.mojo:exec-mave
 
 Если в описаниях встречается "кракозябра" (Ã, Ð, Ñ, Â, �), попробуйте указать кодировку CSV:
 ```bash
-SUBSCRIBERS_CSV_ENCODING=windows-1251 \
 mvn -DskipTests -Dexec.mainClass=com.example.app.App org.codehaus.mojo:exec-maven-plugin:3.5.0:java
 ```
 
