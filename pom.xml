@@ -8,7 +8,7 @@
     <artifactId>app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>example-app</name>
-    <description>Empty Java 17 Maven project</description>
+    <description>Empty Java 21 Maven project</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
