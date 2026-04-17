@@ -39,14 +39,14 @@ mvn -DskipTests package
 
 1) Через Maven Exec Plugin (без изменения pom.xml):
 ```bash
-mvn -DskipTests -Dexec.mainClass=com.example.app.App org.codehaus.mojo:exec-maven-plugin:3.5.0:java
+mvn -DskipTests -Dexec.mainClass=com.remnaupdater.app.App org.codehaus.mojo:exec-maven-plugin:3.5.0:java
 ```
 
 2) Через `java` после сборки:
 ```bash
 # вариант с классами компиляции и зависимостями из Maven
 mvn -q -DincludeScope=runtime dependency:build-classpath -Dmdep.outputFile=cp.txt && \
-java -cp target/classes:$(cat cp.txt) com.example.app.App
+java -cp target/classes:$(cat cp.txt) com.remnaupdater.app.App
 ```
 Если вы предпочитаете запуск из JAR, добавьте JAR в classpath вместе с зависимостями (см. команду `dependency:build-classpath` выше) или используйте первый способ с Maven Exec.
 
@@ -56,12 +56,12 @@ java -cp target/classes:$(cat cp.txt) com.example.app.App
 REMW_BASE_URL=https://api.example.com \
 REMW_SERVICE_TOKEN=secret-token \
 SUBSCRIBERS_CSV_PATH=/path/to/subscribers.csv \
-mvn -DskipTests -Dexec.mainClass=com.example.app.App org.codehaus.mojo:exec-maven-plugin:3.5.0:java
+mvn -DskipTests -Dexec.mainClass=com.remnaupdater.app.App org.codehaus.mojo:exec-maven-plugin:3.5.0:java
 ```
 
 Если в описаниях встречается "кракозябра" (Ã, Ð, Ñ, Â, �), попробуйте указать кодировку CSV:
 ```bash
-mvn -DskipTests -Dexec.mainClass=com.example.app.App org.codehaus.mojo:exec-maven-plugin:3.5.0:java
+mvn -DskipTests -Dexec.mainClass=com.remnaupdater.app.App org.codehaus.mojo:exec-maven-plugin:3.5.0:java
 ```
 
 ### Логика чтения конфигурации

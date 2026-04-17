@@ -1,7 +1,7 @@
-package com.example.app.client;
+package com.remnaupdater.app.client;
 
-import com.example.app.dto.GetAllUsersResponse;
-import com.example.app.dto.UpdateUserRequest;
+import com.remnaupdater.app.dto.GetAllUsersResponse;
+import com.remnaupdater.app.dto.UpdateUserRequest;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

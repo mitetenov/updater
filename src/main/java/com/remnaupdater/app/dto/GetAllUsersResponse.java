@@ -1,4 +1,4 @@
-package com.example.app.dto;
+package com.remnaupdater.app.dto;
 
 import java.util.List;
 

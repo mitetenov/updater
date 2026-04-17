@@ -1,9 +1,9 @@
-package com.example.app.service;
+package com.remnaupdater.app.service;
 
-import com.example.app.client.RemnawaveApiClient;
-import com.example.app.csv.FileSubscribersRepository;
-import com.example.app.dto.GetAllUsersResponse;
-import com.example.app.dto.UserDto;
+import com.remnaupdater.app.client.RemnawaveApiClient;
+import com.remnaupdater.app.csv.FileSubscribersRepository;
+import com.remnaupdater.app.dto.GetAllUsersResponse;
+import com.remnaupdater.app.dto.UserDto;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.app.csv;
+package com.remnaupdater.app.csv;
 
 import com.opencsv.CSVParser;
 import com.opencsv.CSVParserBuilder;

@@ -1,8 +1,8 @@
-package com.example.app;
+package com.remnaupdater.app;
 
-import com.example.app.client.RemnawaveApiClient;
-import com.example.app.csv.FileSubscribersRepository;
-import com.example.app.service.UserDescriptionUpdateService;
+import com.remnaupdater.app.client.RemnawaveApiClient;
+import com.remnaupdater.app.csv.FileSubscribersRepository;
+import com.remnaupdater.app.service.UserDescriptionUpdateService;
 import io.github.cdimascio.dotenv.Dotenv;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
